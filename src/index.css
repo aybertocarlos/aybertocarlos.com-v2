@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700,900');
+
+body {
+  margin: 0;
+  padding: 0 30vw;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p, blockquote {
+  font-family: 'Source Code Pro', monospace;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Source Code Pro', monospace;
+  padding-bottom: 0;
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+}
+
+a {
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: none;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: .5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+#app-mount {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+@media (max-width:1500px) {
+    body {
+      padding: 0 20vw;
+    }
+}
+
+@media (max-width:768px) {
+  body {
+    padding: 20px 7vw;
+  }
+}
