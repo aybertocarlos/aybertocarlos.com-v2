@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/header'
 import About from './components/about'
 import Projects from './components/projects'
+import NowPlaying from './components/nowplaying'
 import Footer from './components/footer'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 			<div>
 				<Header />
 				<About />
+				<NowPlaying />
 				<Projects />
 				<Footer />
 			</div>
