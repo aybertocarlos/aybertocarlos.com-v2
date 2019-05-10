@@ -31,7 +31,6 @@ class NowPlaying extends Component {
             }
             else this.setState({ loading: false })
         }).catch(err => {
-            console.log(err)
             this.setState({ loading: false })
         })
 
@@ -53,7 +52,18 @@ class NowPlaying extends Component {
                 }
                 this.setState({ titleSong: titleSong })
             }
-        }).catch(err => console.log(err))
+            else this.setState({
+                titleSong: {
+                    title: "",
+                    group: ""
+                }
+            })
+        }).catch(_ => this.setState({
+            titleSong: {
+                title: "",
+                group: ""
+            }
+        }))
     }
 
     render() {

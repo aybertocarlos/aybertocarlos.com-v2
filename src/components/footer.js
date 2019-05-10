@@ -9,7 +9,7 @@ function Footer() {
             <footer>
                 <h2>Linkler</h2>
                 <a className="footer-item" href="https://github.com/aybertocarlos" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faGithub} />.Github</a>
-                <a className="footer-item" href="https://github.com/aybertocarlos" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faGlobe} />.PuzzleSubs</a>
+                <a className="footer-item" href="https://puzzlesubs.com" target="_blank" rel="noopener noreferrer" ><FontAwesomeIcon icon={faGlobe} />.PuzzleSubs</a>
             </footer>
         </>
     )
