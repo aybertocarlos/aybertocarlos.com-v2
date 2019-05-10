@@ -3,7 +3,7 @@ import axios from 'axios'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLastfm } from '@fortawesome/free-brands-svg-icons'
 
-const link = "http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=aybertocarlos&api_key=4a9f5581a9cdf20a699f540ac52a95c9&limit=2&format=json&callback=?"
+const link = "https://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&user=aybertocarlos&api_key=4a9f5581a9cdf20a699f540ac52a95c9&limit=2&format=json&callback=?"
 
 class NowPlaying extends Component {
     constructor(props) {
