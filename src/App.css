@@ -22,7 +22,11 @@ section h2{
 .site-header {
     font-weight: 900;
     margin-left: 20px; 
+<<<<<<< HEAD
     font-size: 2vw;
+=======
+    font-size: 1.7vw;
+>>>>>>> gh-pages
 }
 
 .projects p {

@@ -6,7 +6,11 @@ function Header() {
         <>
             <header>
                 <img className="logo" alt="Logo" src={Logo} />
+<<<<<<< HEAD
                 <h1 className="site-header">aybertocarlos.com</h1>
+=======
+                <h1 className="site-header">aybertocarlos.github.io</h1>
+>>>>>>> gh-pages
             </header>
         </>
     )

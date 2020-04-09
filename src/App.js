@@ -13,7 +13,10 @@ function App() {
 			<div>
 				<Header />
 				<About />
+<<<<<<< HEAD
 				<NowPlaying />
+=======
+>>>>>>> gh-pages
 				<Projects />
 				<Footer />
 			</div>
